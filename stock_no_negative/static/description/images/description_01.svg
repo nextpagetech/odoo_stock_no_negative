@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#ffffff"/>
+<rect width="1200" height="92" fill="#0B326B"/>
+<text x="55" y="58" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#ffffff">Prevent Negative Stock at Validation</text>
+<text x="55" y="137" font-family="Arial,sans-serif" font-size="21" fill="#5B6B7A">Stockable products are protected when an operation would make an internal or transit location negative.</text>
+<g transform="translate(50 190)">
+ <rect width="340" height="230" rx="24" fill="#F5FAFF" stroke="#C9DDEC" stroke-width="3"/>
+ <circle cx="52" cy="52" r="31" fill="#0875D1"/><text x="42" y="63" font-family="Arial" font-size="27" font-weight="700" fill="#fff">1</text>
+ <text x="105" y="59" font-family="Arial" font-size="24" font-weight="700" fill="#0B326B">Stock Operation</text>
+ <text x="30" y="115" font-family="Arial" font-size="18" fill="#5B6B7A">A delivery, transfer, manufacturing</text>
+ <text x="30" y="145" font-family="Arial" font-size="18" fill="#5B6B7A">move or other inventory operation</text>
+ <text x="30" y="175" font-family="Arial" font-size="18" fill="#5B6B7A">updates protected stock.</text>
+</g>
+<g transform="translate(430 190)">
+ <rect width="340" height="230" rx="24" fill="#F5FAFF" stroke="#C9DDEC" stroke-width="3"/>
+ <circle cx="52" cy="52" r="31" fill="#0875D1"/><text x="42" y="63" font-family="Arial" font-size="27" font-weight="700" fill="#fff">2</text>
+ <text x="105" y="59" font-family="Arial" font-size="24" font-weight="700" fill="#0B326B">Quantity Check</text>
+ <text x="30" y="115" font-family="Arial" font-size="18" fill="#5B6B7A">The resulting stock quant is checked.</text>
+ <text x="30" y="145" font-family="Arial" font-size="18" fill="#5B6B7A">If it falls below zero, the rule</text>
+ <text x="30" y="175" font-family="Arial" font-size="18" fill="#5B6B7A">evaluates configured exceptions.</text>
+</g>
+<g transform="translate(810 190)">
+ <rect width="340" height="230" rx="24" fill="#F5FAFF" stroke="#C9DDEC" stroke-width="3"/>
+ <circle cx="52" cy="52" r="31" fill="#0875D1"/><text x="42" y="63" font-family="Arial" font-size="27" font-weight="700" fill="#fff">3</text>
+ <text x="105" y="59" font-family="Arial" font-size="24" font-weight="700" fill="#0B326B">Block or Allow</text>
+ <text x="30" y="115" font-family="Arial" font-size="18" fill="#5B6B7A">Validation is blocked unless negative</text>
+ <text x="30" y="145" font-family="Arial" font-size="18" fill="#5B6B7A">stock is allowed for the product,</text>
+ <text x="30" y="175" font-family="Arial" font-size="18" fill="#5B6B7A">category or stock location.</text>
+</g>
+<rect x="120" y="475" width="960" height="130" rx="25" fill="#FFF2F2" stroke="#F2CACA" stroke-width="3"/>
+<circle cx="175" cy="540" r="32" fill="#D64545"/><text x="165" y="552" font-family="Arial" font-size="30" font-weight="700" fill="#fff">!</text>
+<text x="225" y="526" font-family="Arial" font-size="23" font-weight="700" fill="#D64545">Validation Error</text>
+<text x="225" y="563" font-family="Arial" font-size="19" fill="#7F3030">The message identifies the affected product, lot when applicable, quantity and stock location.</text>
+</svg>
