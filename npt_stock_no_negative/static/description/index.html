@@ -1,161 +1,71 @@
 <div class="oe_styling_v8">
-<section>
-  <div class="container px-0">
-    <div class="row g-0">
-      <div class="col-12">
-        <img src="banner.jpg" class="img-fluid w-100" alt="Stock No Negative Odoo 18 inventory addon">
-      </div>
-    </div>
-  </div>
-</section>
+<section><div class="container px-0"><div class="row g-0"><div class="col-12">
+  <img src="banner.png" class="img-fluid w-100" alt="Stock No Negative for Odoo 18 Inventory">
+</div></div></div></section>
 
-<section class="py-4">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-10 text-center">
-        <img src="images/company_logo.png" alt="Next Page Technologies" style="max-width:180px;height:auto;" class="mb-3">
-        <h2 style="color:#0B326B;font-weight:700;">Prevent Negative Stock in Odoo Inventory</h2>
-        <p class="lead mb-0">
-          Stock No Negative blocks inventory operations that would make a stockable product negative
-          in an internal or transit location. Controlled exceptions can be enabled for a specific
-          product, product category, or stock location.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+<section class="py-4"><div class="container"><div class="row justify-content-center"><div class="col-12 col-lg-10 text-center">
+  <img src="images/company_logo.png" class="img-fluid mb-3" style="max-width:180px;height:auto;" alt="Next Page Technologies Pvt Ltd">
+  <h1 class="h2" style="color:#0B326B;font-weight:700;">Stock No Negative</h1>
+  <p class="lead mb-0">Prevent negative stock in Odoo 18 Inventory by blocking operations that would take a stockable product below zero in an internal or transit location. Keep inventory quantities reliable while allowing controlled exceptions for selected products, product categories, or stock locations.</p>
+</div></div></div></section>
 
-<section class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 mb-3">
-        <div class="h-100 p-4 border rounded">
-          <h3 class="h5" style="color:#0B326B;">Block Negative Inventory</h3>
-          <p class="mb-0">A stock quant constraint prevents protected stockable products from going below zero during validation.</p>
-        </div>
-      </div>
-      <div class="col-md-6 mb-3">
-        <div class="h-100 p-4 border rounded">
-          <h3 class="h5" style="color:#0B326B;">Product-Level Exceptions</h3>
-          <p class="mb-0">Enable <strong>Allow Negative Stock</strong> for selected stockable products that are permitted to go negative.</p>
-        </div>
-      </div>
-      <div class="col-md-6 mb-3">
-        <div class="h-100 p-4 border rounded">
-          <h3 class="h5" style="color:#0B326B;">Category-Level Exceptions</h3>
-          <p class="mb-0">Allow negative stock for products assigned directly to a selected product category.</p>
-        </div>
-      </div>
-      <div class="col-md-6 mb-3">
-        <div class="h-100 p-4 border rounded">
-          <h3 class="h5" style="color:#0B326B;">Location-Level Exceptions</h3>
-          <p class="mb-0">Permit negative stock for selected internal or transit locations when the business process requires it.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<section class="py-4" style="background:#F5FAFF;"><div class="container"><div class="row"><div class="col-12">
+  <h2 style="color:#0B326B;">Overview</h2>
+  <p class="mb-0">Stock No Negative adds a validation constraint to Odoo stock quantities. When an inventory operation would create a negative quantity, the addon evaluates the product, its directly assigned category, and the affected stock location before either blocking or allowing the update. No global configuration is required after installation.</p>
+</div></div></div></section>
 
-<section class="py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 style="color:#0B326B;">How Validation Protection Works</h2>
-        <p>
-          When an inventory operation updates stock, the addon checks the resulting stock quant.
-          If a stockable product would become negative in an internal or transit location and no
-          exception is enabled, Odoo raises a clear validation error.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="container px-0">
-    <div class="row g-0">
-      <div class="col-12">
-        <img src="images/description_01.svg" class="img-fluid w-100" alt="Negative stock validation workflow in Odoo">
-      </div>
-    </div>
-  </div>
-</section>
+<section class="py-4"><div class="container"><div class="row">
+  <div class="col-12"><h2 style="color:#0B326B;">Key Features</h2></div>
+  <div class="col-md-6 mb-3"><div class="h-100 p-4 border rounded"><h3 class="h5" style="color:#0B326B;">Block Negative Inventory</h3><p class="mb-0">Prevent protected stockable products from falling below zero in internal and transit locations.</p></div></div>
+  <div class="col-md-6 mb-3"><div class="h-100 p-4 border rounded"><h3 class="h5" style="color:#0B326B;">Clear Validation Feedback</h3><p class="mb-0">Identify the affected product, negative quantity, location, and lot when lot tracking applies.</p></div></div>
+  <div class="col-md-6 mb-3"><div class="h-100 p-4 border rounded"><h3 class="h5" style="color:#0B326B;">Product and Category Exceptions</h3><p class="mb-0">Permit negative stock for a specific product or for products assigned directly to a selected category.</p></div></div>
+  <div class="col-md-6 mb-3"><div class="h-100 p-4 border rounded"><h3 class="h5" style="color:#0B326B;">Location Exceptions</h3><p class="mb-0">Allow negative quantities in selected internal or transit locations when a process requires them.</p></div></div>
+</div></div></section>
 
-<section class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 style="color:#0B326B;">Flexible Configuration</h2>
-        <p>
-          Negative stock is disallowed by default. Exceptions can be configured at product,
-          product category, or stock location level without disabling the protection globally.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="container px-0">
-    <div class="row g-0">
-      <div class="col-12">
-        <img src="images/description_02.svg" class="img-fluid w-100" alt="Allow Negative Stock settings by product category and location">
-      </div>
-    </div>
-  </div>
-</section>
+<section class="py-4"><div class="container"><div class="row">
+  <div class="col-md-6 mb-3"><h2 style="color:#0B326B;">How It Works</h2><ol><li>Install the addon with Odoo Inventory.</li><li>Process an inventory operation normally.</li><li>The resulting stock quantity is checked when the quant is updated.</li><li>Odoo blocks a negative quantity when no applicable exception is enabled.</li></ol></div>
+  <div class="col-md-6 mb-3"><h2 style="color:#0B326B;">Common Use Cases</h2><ul><li>Stop deliveries that exceed available protected stock.</li><li>Protect internal transfers from creating negative source quantities.</li><li>Permit controlled exceptions for designated products or locations.</li><li>Include lot details in errors for tracked products.</li></ul></div>
+</div></div></section>
 
-<section class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 mb-3">
-        <h2 style="color:#0B326B;">Behaviour</h2>
-        <ul>
-          <li>Applies to stockable products.</li>
-          <li>Checks internal and transit stock locations.</li>
-          <li>Consumable products are not blocked by this rule.</li>
-          <li>Lot information is included in the validation message when applicable.</li>
-          <li>A context flag is available for controlled technical bypass scenarios.</li>
-        </ul>
-      </div>
-      <div class="col-md-6 mb-3">
-        <h2 style="color:#0B326B;">Compatibility</h2>
-        <ul>
-          <li>Odoo 18.0</li>
-          <li>Inventory / Stock</li>
-          <li>Community-compatible dependency: <code>stock</code></li>
-          <li>No external third-party addon dependency</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
+<section class="py-4" style="background:#F5FAFF;"><div class="container"><div class="row"><div class="col-12">
+  <h2 style="color:#0B326B;">Configuration and Setup</h2>
+  <p class="mb-0">Protection is active by default for stockable products in internal and transit locations. When an exception is needed, enable <strong>Allow Negative Stock</strong> on the product, its product category, or the stock location. A category exception applies to products assigned directly to that category; it does not automatically apply to subcategories.</p>
+</div></div></div></section>
 
-<section class="py-4" style="background:#F5FAFF;">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 style="color:#0B326B;">Credits &amp; License</h2>
-        <p class="mb-0">
-          This Odoo 18 distribution is based on the OCA <strong>stock_no_negative</strong> module,
-          originally authored by Akretion and maintained through the Odoo Community Association
-          ecosystem. The addon remains licensed under <strong>AGPL-3</strong>. Next Page Technologies
-          provides this distribution, store presentation, implementation and support.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+<section class="py-4"><div class="container"><div class="row"><div class="col-12">
+  <h2 style="color:#0B326B;">Negative Stock Validation</h2>
+  <p>When a protected stock quant falls below zero, Odoo stops the operation with a validation error. The message gives users the operational details needed to correct the quantity or review the relevant exception setting.</p>
+</div></div></div><div class="container px-0"><div class="row g-0"><div class="col-12">
+  <img src="images/description_01.png" class="img-fluid w-100" alt="Odoo negative stock validation workflow for stockable products">
+</div></div></div></section>
 
-<section class="py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 style="color:#0B326B;">Support</h2>
-        <p>For implementation or support assistance, contact Next Page Technologies Pvt Ltd.</p>
-      </div>
-    </div>
-  </div>
-  <div class="container px-0">
-    <div class="row g-0">
-      <div class="col-12">
-        <img src="images/contact_us.svg" class="img-fluid w-100" alt="Next Page Technologies support contact details">
-      </div>
-    </div>
-  </div>
-</section>
+<section class="py-4"><div class="container"><div class="row"><div class="col-12">
+  <h2 style="color:#0B326B;">Flexible Negative Stock Exceptions</h2>
+  <p>Keep the inventory safeguard in place while granting targeted exceptions at product, directly assigned product category, or stock location level. An enabled exception at any one of these levels allows the relevant negative stock quantity.</p>
+</div></div></div><div class="container px-0"><div class="row g-0"><div class="col-12">
+  <img src="images/description_02.png" class="img-fluid w-100" alt="Allow Negative Stock settings for an Odoo product, product category, and stock location">
+</div></div></div></section>
+
+<section class="py-4" style="background:#F5FAFF;"><div class="container"><div class="row">
+  <div class="col-12"><h2 style="color:#0B326B;">Business Benefits</h2></div>
+  <div class="col-md-6 mb-3"><ul class="mb-0"><li>Improve the reliability of available inventory quantities.</li><li>Catch insufficient stock during operation validation.</li></ul></div>
+  <div class="col-md-6 mb-3"><ul class="mb-0"><li>Apply exceptions only where the business process needs them.</li><li>Give users specific product, location, quantity, and lot feedback.</li></ul></div>
+</div></div></section>
+
+<section class="py-4"><div class="container"><div class="row">
+  <div class="col-md-6 mb-3"><h2 style="color:#0B326B;">Requirements</h2><ul class="mb-0"><li>Odoo 18.0</li><li>Odoo Inventory (<code>stock</code>)</li><li>No third-party addon dependency</li><li>No external service or API configuration</li></ul></div>
+  <div class="col-md-6 mb-3"><h2 style="color:#0B326B;">Compatibility and Scope</h2><ul class="mb-0"><li>Applies to stockable products.</li><li>Checks internal and transit locations.</li><li>Does not apply this rule to non-stockable products.</li><li>Supports lot-specific validation messages.</li></ul></div>
+</div></div></section>
+
+<section class="py-4"><div class="container"><div class="row"><div class="col-12">
+  <h2 style="color:#0B326B;">Support and Contact</h2><p>Contact Next Page Technologies Pvt Ltd for implementation or support assistance.</p>
+</div></div></div><div class="container px-0"><div class="row g-0"><div class="col-12">
+  <img src="images/contact_us.png" class="img-fluid w-100" alt="Next Page Technologies support contact information">
+</div></div></div></section>
+
+<section class="py-4" style="background:#F5FAFF;"><div class="container"><div class="row"><div class="col-12">
+  <h2 style="color:#0B326B;">Publisher and Credits</h2>
+  <p>Published and supported by <strong>Next Page Technologies Pvt Ltd</strong>.<br>Website: <a href="https://nextpagetechnologies.com">https://nextpagetechnologies.com</a></p>
+  <p class="mb-0">This Odoo 18 distribution is based on the OCA <strong>stock_no_negative</strong> module, originally authored by Akretion and maintained through the Odoo Community Association ecosystem. It remains licensed under <strong>AGPL-3</strong>.</p>
+</div></div></div></section>
 </div>

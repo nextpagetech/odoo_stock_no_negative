@@ -23,7 +23,7 @@ authored by Akretion and maintained in the Odoo Community Association ecosystem.
         "views/stock_location_views.xml",
     ],
     "images": [
-        "static/description/banner.jpg",
+        "static/description/banner.png",
     ],
     "installable": True,
     "application": False,
