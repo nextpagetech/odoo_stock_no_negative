@@ -13,7 +13,7 @@ category, or stock location.
 This distribution is based on the OCA stock_no_negative module originally
 authored by Akretion and maintained in the Odoo Community Association ecosystem.
 """,
-    "author": "Next Page Technologies Pvt Ltd, Akretion, OCA",
+    "author": "Next Page Technologies Pvt Ltd",
     "maintainer": "Next Page Technologies Pvt Ltd",
     "website": "https://nextpagetechnologies.com",
     "support": "hello@nextpagetechnologies.com",
